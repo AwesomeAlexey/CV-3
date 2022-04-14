@@ -127,8 +127,8 @@ void robots(void){
     cvtColor(img, hsv, COLOR_BGR2HSV);
 
 
-    Scalar red_low = {0, 50, 150};
-    Scalar red_high = {30, 255, 255};
+    Scalar red_low = {0, 80, 100};
+    Scalar red_high = {55, 255, 255};
 
     Scalar green_low = {50, 50, 150};
     Scalar green_high = {80, 255, 255};
